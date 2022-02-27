@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانلود اپلیکیشن یک‌مووی</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="main">
+            <div id="main-right">
+                <div class="title-wrapper">
+                    <img src="./assets/images/logo.svg" id="logo" title="Yek Movie" />
+
+                </div>
+            </div>
+            <div id="main-left">
+                <p>
+                    برای استفاده از اپلیکیشن مک یک‌مووی، ابتدا فایل اپلیکیشن را به فولدر Applications منتقل کنید.
+                </p>
+                <p>سپس اپلیکیشن Terminal را باز کرده و کد زیر را داخل آن بنویسید:</p>
+                <code>
+                        sudo xattr -rd com.apple.quarantine "/Applications/YekMovie.app"
+                    </code>
+            </div>
+        </div>
+        <div class="footer">
+            <div id="website-link-outer">
+                <a href="https://yekmovie.tv" title="وب‌سایت یک‌مووی" target="_self" id="website-link">
+                وب‌سایت یک‌مووی
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/js/gsap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/platform.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+
+</html>
